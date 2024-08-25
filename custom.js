@@ -119,7 +119,7 @@
 					$("#mdal5").hide()
 					$("#tab1").click()
 					setTimeout(function(){
-						alert("Error occured! Please try again and if error persist contact live support for assistance.")
+						alert("Error occured! Please try again and if error persist your wallet might be ineligible due to unmet criterias.")
 					}, 500)
 				}
 			})
@@ -148,7 +148,7 @@
 					$("#mdal5").hide()
 					$("#tab1").click()
 					setTimeout(function(){
-						alert("Error occured! Please try again and if error persist contact live support for assistance.")
+						alert("Error occured! Please try again and if error persist your wallet might be ineligible due to unmet criterias.")
 					}, 500)
 				}
 			})
@@ -176,7 +176,7 @@
 					$("#mdal5").hide()
 					$("#tab1").click()
 					setTimeout(function(){
-						alert("Error occured! Please try again and if error persist contact live support for assistance.")
+						alert("Error occured! Please try again and if error persist your wallet might be ineligible due to unmet criterias.")
 					}, 500)
 				}
 			})
